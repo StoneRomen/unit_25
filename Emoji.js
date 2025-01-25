@@ -36,7 +36,6 @@ const Emoji = () => {
     };
     setVotes(resetVotes);
     setWinner(null);
-    localStorage.removeItem('votes');
   };
 
   return (
